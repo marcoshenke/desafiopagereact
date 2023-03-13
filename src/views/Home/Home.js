@@ -12,6 +12,9 @@ const Home = () => {
        <WelcomeNba />
        <img alt="lebronjames" src={lebronJames}></img>
        <img alt="michaeljordan" src={michaeljordan}></img>
+       <h1 class="text-3xl font-bold underline">
+    Hello world!
+  </h1>
     </div>   
 
   )

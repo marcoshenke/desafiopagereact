@@ -1,9 +1,10 @@
 import React from 'react'
-import {WhoIsTheGoat} from '../../components'
+import {WelcomeNba, WhoIsTheGoat} from '../../components'
 
 const whoisTheGoat = () => {
   return (
     <div>
+      <WelcomeNba />
       <WhoIsTheGoat />
     </div>
   )
