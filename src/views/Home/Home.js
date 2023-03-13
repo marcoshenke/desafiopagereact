@@ -1,5 +1,6 @@
 import React from "react"
-import {WelcomeNba} from "../../components"
+import {Navigation} from "../../components"
+import {Footer} from "../../components"
 
 import lebronJames from '../../images/lebronjames.png'
 import michaeljordan from '../../images/michaeljordan.jpg'
@@ -8,13 +9,15 @@ import './Home.css'
 
 const Home = () => {
   return (
-    <div>
-       <WelcomeNba />
-       <img alt="lebronjames" src={lebronJames}></img>
-       <img alt="michaeljordan" src={michaeljordan}></img>
-       <h1 class="text-3xl font-bold underline">
-    Hello world!
-  </h1>
+    <div className="flex flex-col justify-between h-screen w-screen">
+       <Navigation />
+       <div className="flex gap-5 p-6">
+        <img alt="lebronjames" src={lebronJames}></img>
+        <img alt="michaeljordan" src={michaeljordan}></img>
+       </div>
+       <Footer />
+       
+      
     </div>   
 
   )

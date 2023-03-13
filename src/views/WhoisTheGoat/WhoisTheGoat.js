@@ -1,10 +1,10 @@
 import React from 'react'
-import {WelcomeNba, WhoIsTheGoat} from '../../components'
+import {Navigation, WhoIsTheGoat} from '../../components'
 
 const whoisTheGoat = () => {
   return (
     <div>
-      <WelcomeNba />
+      <Navigation />
       <WhoIsTheGoat />
     </div>
   )
