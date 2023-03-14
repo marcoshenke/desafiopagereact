@@ -4,7 +4,7 @@ import logoNba from '../../images/logo-nba.png'
 
 const Navigation = () => {
   return (
-    <header className="header flex justify-between p-2 font-sans text-xl items-center	">
+    <header className="header font-bold	 flex justify-between p-2 font-sans text-xl items-center	">
       <div className="flex items-center	">
       <img className="w-20" alt="logo-nba" src={logoNba}></img>
       <div className="flex flex-col">
