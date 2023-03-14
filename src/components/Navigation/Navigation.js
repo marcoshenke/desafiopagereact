@@ -1,6 +1,8 @@
 import React from "react"
 import './Navigation.css'
 import logoNba from '../../images/logo-nba.png'
+import { Link } from "react-router-dom"
+
 
 const Navigation = () => {
   return (
@@ -17,9 +19,9 @@ const Navigation = () => {
       </div>
       </div>
       
-      <ul className="flex gap-2"> 
-        <li><a href="#">Home</a></li>
-        <li><a href="#">Quem é o melhor?</a></li>        
+      <ul className="flex gap-4"> 
+        <li className=" hover:text-nba-red hover:text-2xl"><Link to="/">Home</Link></li>
+        <li className=" hover:text-nba-red hover:text-2xl"><Link to="/whoisthegoat">Quem é o melhor?</Link></li>        
       </ul>
       </header>
   )
