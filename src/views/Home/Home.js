@@ -1,8 +1,8 @@
 import React from "react"
-import {Navigation, Footer} from "../../components"
+import {Navigation, Footer} from "components"
 
-import lebronJames from '../../images/lebronjames.png'
-import michaeljordan from '../../images/michaeljordan.jpg'
+import lebronJames from 'images/lebronjames.png'
+import michaeljordan from 'images/michaeljordan.jpg'
 import './Home.css'
 
 

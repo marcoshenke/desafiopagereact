@@ -1,5 +1,5 @@
 import React from 'react'
-import helpers from '../../helpers'
+import helpers from 'helpers'
 
 const Button = ({words, player}) => {
         return (

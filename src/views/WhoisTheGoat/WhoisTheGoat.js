@@ -1,7 +1,7 @@
 import React from 'react'
-import {Navigation, WhoIsTheGoat, Footer, Button} from '../../components'
-import lebronjames1 from "../../images/lebronjames1.jpeg"
-import michaeljordan1 from "../../images/michaeljordan1.jpg"
+import {Navigation, WhoIsTheGoat, Footer, Button} from 'components'
+import lebronjames1 from "images/lebronjames1.jpeg"
+import michaeljordan1 from "images/michaeljordan1.jpg"
 
 const whoisTheGoat = () => {
   return (
